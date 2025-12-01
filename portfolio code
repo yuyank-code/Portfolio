@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    color: #222;
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+header img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 4px solid white;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #6a11cb;
+    border-left: 6px solid #2575fc;
+    padding-left: 12px;
+    font-size: 28px;
+}
+
+.skills span {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #ffe5f1;
+    margin: 8px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 1px solid #ffb3d9;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 14px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+    color: #2575fc;
+}
+
+footer {
+    background: #2575fc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #d633ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6a11cb;
+    text-decoration: underline;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuyank Singh | Portfolio</title>
+
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- Home Section -->
+    <header>
+        <h1>Hi, I'm <b>Yuyank Singh</b></h1>
+        <p>B.Tech CSE (AIML) 1st Year</p>
+        <p>“Blockchain & Finance Tech Enthusiast”</p>
+        <img src="projectportfolio.jpeg" alt="Profile Photo">
+    </header>
+
+    <!-- About Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a B.Tech 1st year student in CSE (AIML).  
+            I enjoy working with programming and web technologies.  
+            I am currently learning C programming and HTML/CSS.  
+            I am highly interested in Blockchain and finance-related technologies  
+            and passionate about exploring how tech can transform future finance.  
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>C Programming</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Blockchain Basics</span>
+            <span>Finance Tech Interest</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Basic Calculator (C)</h3>
+            <p>A simple calculator project using C programming covering operators and functions.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A simple personal portfolio built using only HTML & CSS.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Learning Blockchain Concepts</h3>
+            <p>Exploring blockchain fundamentals, crypto transactions & smart contract basics.</p>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:yuyanksingh9455@gmail.com"><b>yuyanksingh9455@gmail.com</b></a></p>
+        <p>GitHub: <a href="https://github.com/yuyanksingh" target="_blank"><b>github.com/yuyanksingh</b></a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com" target="_blank">LinkedIn Profile (Add later)</a></p>
+    </section>
+
+    <footer>
+        © 2025 | Designed by Yuyank Singh
+    </footer>
+
+</body>
+</html>
